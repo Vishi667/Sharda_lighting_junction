@@ -9125,7 +9125,7 @@ body {
     .hero {
         background-size: auto 30%;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-attachment: scroll;
     }
     .service_button a:hover {
