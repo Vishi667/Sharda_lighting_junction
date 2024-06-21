@@ -9148,7 +9148,7 @@ body {
         height: 160px;
         display: block;
         margin: 0 auto 20px;
-        
+
     }
 
     .hero h1 {
@@ -9174,6 +9174,7 @@ body {
 
     .two_col_layout>* {
         margin: 20px 0;
+        width: 100%;
     }
 
     .service_button a:hover {
