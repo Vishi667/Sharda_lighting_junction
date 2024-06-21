@@ -3055,6 +3055,14 @@ section .social_icons li {
     margin-top: 30px;
 }
 
+.two_col_layout {
+    display: flex;
+    justify-content: space-between;
+}
+.two_col_layout>* {
+    width: 47%;
+}
+
 @media (min-width: 1200px) {
     .header_style4 .main_menu {
         margin-right: 16%;
