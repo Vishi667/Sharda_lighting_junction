@@ -9126,6 +9126,7 @@ body {
         background-size: auto 30%;
         background-repeat: no-repeat;
         background-size: contain;
+        background-attachment: scroll;
     }
     .service_button a:hover {
         background:#f6f7a9;
