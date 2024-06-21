@@ -9123,6 +9123,10 @@ body {
         font-size: 20px;
         padding: 40px 10px;
     }
+    .hero-inner {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 14px;
+    }
     .hero {
         background-size: auto 30%;
         background-repeat: no-repeat;
