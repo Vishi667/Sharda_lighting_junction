@@ -9175,6 +9175,7 @@ body {
     .two_col_layout>* {
         margin: 20px 0;
         width: 100%;
+        text-align: center;
     }
 
     .service_button a:hover {
