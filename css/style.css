@@ -9109,6 +9109,7 @@ body {
     .hero {
         background-size: auto 30%;
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .left_blog_top h3 {
