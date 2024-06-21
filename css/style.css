@@ -3070,6 +3070,11 @@ section .social_icons li {
     text-transform: capitalize;
 }
 
+.two_col_layout p {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
 @media (min-width: 1200px) {
     .header_style4 .main_menu {
         margin-right: 16%;
