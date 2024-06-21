@@ -9177,6 +9177,9 @@ body {
         width: 100%;
         text-align: center;
     }
+    .col_mob {
+        flex-direction: column-reverse;
+    }
 
     .service_button a:hover {
         background: #f6f7a9;
