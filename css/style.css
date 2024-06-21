@@ -9065,9 +9065,9 @@ body {
     clear: both;
     text-align: center;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: contain;
     background-position: center top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;  
 }
 .hero-inner {
@@ -9101,6 +9101,10 @@ body {
         width: auto;
         font-size: 12px;
         margin-top: 60px;
+    }
+    .hero h1{
+        font-size: 20px;
+        padding: 40px 40px;
     }
 
     .left_blog_top h3 {
