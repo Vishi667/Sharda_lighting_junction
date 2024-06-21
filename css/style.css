@@ -3065,6 +3065,10 @@ section .social_icons li {
 .two_col_layout>* {
     width: 47%;
 }
+/* .two_col_layout h4 {
+    font-size: 14px;
+    text-transform: capitalize;
+} */
 
 @media (min-width: 1200px) {
     .header_style4 .main_menu {
