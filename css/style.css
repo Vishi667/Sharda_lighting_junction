@@ -3058,7 +3058,10 @@ section .social_icons li {
 .two_col_layout {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
 }
+
 .two_col_layout>* {
     width: 47%;
 }
@@ -9076,13 +9079,15 @@ body {
     background-size: contain;
     background-position: center top;
     background-repeat: repeat;
-    background-attachment: fixed;  
+    background-attachment: fixed;
 }
+
 .hero-inner {
 
     background-color: rgba(0, 0, 0, 0.5);
     padding: 90px;
 }
+
 .page-title {
     margin: 0;
     font-weight: 300;
@@ -9091,34 +9096,35 @@ body {
 
 
 .hero h1 {
-        border: 2px solid #fff;
-        padding: 40px 20px;
-        color: white;
-    }
+    border: 2px solid #fff;
+    padding: 40px 20px;
+    color: white;
+}
 
-    .service_button a {
-        background-color: #000;
-        color: #fff;
-        display: inline-block;
-        padding: 20px 20px;
-        border-radius: 10px;
-        margin: 40px 0 40px;
-        font-weight: solid;
-    }
-    .service_button {
-        text-align: center;
-    }
+.service_button a {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 40px 0 40px;
+    font-weight: solid;
+}
 
-    .service_button a:hover {
-        background:#f6f7a9;
-        color: #000;
-    }
+.service_button {
+    text-align: center;
+}
+
+.service_button a:hover {
+    background: #f6f7a9;
+    color: #000;
+}
 
 
 
 /*=============== MOBILE CSS CODE ===================*/
 @media screen and (max-width:900px) {
-    
+
     /* Put all Mobile css code below here*/
     .left_blog_top {
         text-align: center;
@@ -9127,57 +9133,77 @@ body {
         font-size: 12px;
         margin-top: 60px;
     }
-    .hero h1{
+
+    .hero h1 {
         font-size: 20px;
         padding: 40px 10px;
     }
+
     .hero-inner {
         background-color: rgba(0, 0, 0, 0.5);
         padding: 14px;
     }
+
     .hero {
         background-size: auto 30%;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: scroll;
     }
+    .two_col_layout {
+        flex-direction: column;
+    }
+    .two_col_layout>* {
+        margin: 20px 0;
+    }
+
     .service_button a:hover {
-        background:#f6f7a9;
-        color:black;
+        background: #f6f7a9;
+        color: black;
     }
 
     .left_blog_top h3 {
         font-size: 60px;
     }
+
     .decorate_blog_bt {
-        font-size:25px;
+        font-size: 25px;
         width: auto;
     }
+
     img {
         max-width: 100%;
-        height:auto;
+        height: auto;
     }
+
     .parent {
         flex-direction: column;
     }
-    .parent .aboutend, .parent .map {
+
+    .parent .aboutend,
+    .parent .map {
         width: 100%;
     }
-    iframe{
+
+    iframe {
         max-width: 100%;
     }
-    .heading_s1 p{
+
+    .heading_s1 p {
         padding-left: 25px;
         padding-right: 25px;
     }
-    .heading_s1 h3{
+
+    .heading_s1 h3 {
         padding-left: 25px;
         padding-right: 25px;
     }
+
     .heading_s1 {
         font-size: 20px;
     }
-    .header_top p{
+
+    .header_top p {
         color: #fff;
     }
 
@@ -9185,14 +9211,18 @@ body {
         margin-left: 0;
         float: left;
     }
+
     .logo_circle img {
         width: 50px;
     }
+
     .header_top {
         min-height: 50px;
         padding: 35px 0 8.67px;
-        background-color: rgba(0,0,0,0.6);
+        background-color: rgba(0, 0, 0, 0.6);
     }
-/* Put all Mobile css code above here */
+
+    /* Put all Mobile css code above here */
 }
+
 /* END OF MOBILE CSS CODE*/
