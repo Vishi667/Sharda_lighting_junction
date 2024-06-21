@@ -3065,6 +3065,7 @@ section .social_icons li {
 .two_col_layout>* {
     width: 47%;
 }
+
 .two_col_layout p {
     font-size: 14px;
     text-transform: capitalize;
@@ -9142,12 +9143,14 @@ body {
         font-size: 12px;
         margin-top: 60px;
     }
-.full.heading_s1 img {
-    height: 160px;
-    display: block;
-    margin: 0 auto 20px;
 
-}
+    .full.heading_s1 img {
+        height: 160px;
+        display: block;
+        margin: 0 auto 20px;
+
+    }
+
     .hero h1 {
         font-size: 20px;
         padding: 40px 10px;
@@ -9164,9 +9167,11 @@ body {
         background-size: cover;
         background-attachment: scroll;
     }
+
     .two_col_layout {
         flex-direction: column;
     }
+
     .two_col_layout>* {
         margin: 20px 0;
     }
