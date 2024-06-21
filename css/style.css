@@ -9106,6 +9106,10 @@ body {
         font-size: 20px;
         padding: 40px 40px;
     }
+    .hero {
+        background-size: auto 30%;
+        background-repeat: repeat;
+    }
 
     .left_blog_top h3 {
         font-size: 60px;
