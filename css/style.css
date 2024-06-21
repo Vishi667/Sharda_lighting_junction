@@ -9075,7 +9075,7 @@ body {
     background-attachment: fixed;
     
 }
-.page-title-container .page-header h1 {
+.page-title {
     margin: 0;
     font-weight: 300;
     font-size: 3rem;
