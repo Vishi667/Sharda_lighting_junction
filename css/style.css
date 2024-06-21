@@ -9072,11 +9072,9 @@ body {
     color: #ffffff;
 }
 .hero {
-    color: white;
     clear: both;
     padding: 40px;
     text-align: center;
-    background-color: #ccc;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center top;
